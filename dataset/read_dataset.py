@@ -7,7 +7,7 @@ party=[]
 for i in range(10):
     party.append(data.loc[data.store_nbr==i+11])
     #下面一行代码可生成10个文件，对应相应的party
-    #party[i].to_csv('party%s'%(str(i)))
+    #party[i].to_csv('party%s.csv'%(str(i)))
 
 print(party[0])
 
